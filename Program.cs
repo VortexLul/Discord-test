@@ -16,7 +16,7 @@ namespace Discord_test
             _client = new DiscordSocketClient();
             _client.Log += Log;
 
-            var token = "MTIwODA3OTQxNDU4ODM0MjMzMw.Gmq2DQ.Wg0wi3mHkx0kOIT4DUy5MApYQ3GR2mViZ_CV_Y";
+            var token = "";
             await _client.LoginAsync(TokenType.Bot, token);
             await _client.StartAsync();
 
